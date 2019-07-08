@@ -6,6 +6,7 @@
 total_chars=256
 
 def  max_distinct_character(str,n):
+
     count=[0]*total_chars
 
     for i in range(n):
@@ -18,8 +19,11 @@ def  max_distinct_character(str,n):
     return max_distinct
 
 def  smallest_substr(str):
+
     n=len(str)
+    
     max_distinct = max_distinct_character(str,n)
+    
     minl=n
 
     for i in range(n):
