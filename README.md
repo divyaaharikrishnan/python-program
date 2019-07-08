@@ -39,6 +39,9 @@ def  smallest_substr(str):
     return minl
 
 if __name__ =='__main__':
+
     str="abcda"
+    
     l=smallest_substr(str)
+    
     print(l)
