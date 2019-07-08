@@ -1,6 +1,8 @@
 # python-program
 
 #program to find  smallest substring
+
+
 total_chars=256
 def  max_distinct_character(str,n):
     count=[0]*total_chars
